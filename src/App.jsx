@@ -77,7 +77,6 @@ const Layout = () => {
 };
 
 function App() {
-  const user = JSON.parse(localStorage.getItem("user"));
   return (
     <BrowserRouter>
       <Routes>
