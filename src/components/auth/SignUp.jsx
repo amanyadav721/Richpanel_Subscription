@@ -23,11 +23,14 @@ function SignUp() {
         return;
       }
 
-      const response = await axios.post("https://richpannel.onrender.com/auth/signup", {
-        name,
-        email,
-        password,
-      });
+      const response = await axios.post(
+        "https://richpannel.onrender.com/auth/signup",
+        {
+          name,
+          email,
+          password,
+        }
+      );
       console.log(response);
       if (response.status === 201) {
         toast.success("Registration successful. Please sign in.");

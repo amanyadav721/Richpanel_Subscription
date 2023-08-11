@@ -14,10 +14,13 @@ function SignIn() {
     setError("");
 
     try {
-      const response = await axios.post("https://richpannel.onrender.com/auth/signin", {
-        email,
-        password,
-      });
+      const response = await axios.post(
+        "https://richpannel.onrender.com/auth/signin",
+        {
+          email,
+          password,
+        }
+      );
       console.log(response);
 
       if (response.status === 200) {
