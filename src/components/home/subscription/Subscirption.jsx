@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { Component } from "react";
 import styles from "../../../styles/Subscription.module.css";
 import axios from "axios";
@@ -87,13 +86,13 @@ class Subscription extends Component {
         };
 
         const response = await axios.post(
-          "https://richpannel.onrender.com/auth/payment",
+          "http://localhost:3001/auth/payment",
           requestData,
           { headers: headers }
         );
         console.log(response);
         const { url } = response.data;
-        this.props.navigate(url);
+        window.location = url;
       } catch (error) {
         console.error(error);
       }
