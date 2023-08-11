@@ -27,7 +27,7 @@ const Layout = () => {
         Authorization: savedToken,
       };
       const response = await axios.post(
-        "http://localhost:3001/auth/signout",
+        "https://richpannel.onrender.com/auth/signout",
         user,
         {
           headers: headers,

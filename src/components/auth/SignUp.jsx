@@ -23,7 +23,7 @@ function SignUp() {
         return;
       }
 
-      const response = await axios.post("http://localhost:3001/auth/signup", {
+      const response = await axios.post("https://richpannel.onrender.com/auth/signup", {
         name,
         email,
         password,

@@ -14,7 +14,7 @@ function SignIn() {
     setError("");
 
     try {
-      const response = await axios.post("http://localhost:3001/auth/signin", {
+      const response = await axios.post("https://richpannel.onrender.com/auth/signin", {
         email,
         password,
       });
