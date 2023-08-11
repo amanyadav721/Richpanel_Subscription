@@ -1,0 +1,80 @@
+/* Style for the payment form container */
+.paymentForm {
+  width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for form input labels */
+.paymentLabel {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+
+/* Style for form input fields */
+.paymentInput {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+.paymentInput:focus {
+  border-color: #007bff;
+}
+
+/* Style for subscription details */
+.subscriptionDetails {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* SubscriptionPlans.module.css */
+/* ... (previous styles) */
+
+/* Style for the expiry and CVV input container */
+.expiryCvvContainer {
+  display: flex;
+  gap: 10px;
+}
+
+/* Style for the expiry input container */
+.expiryContainer {
+  flex: 1;
+}
+
+/* Style for the CVV input container */
+.cvvContainer {
+  flex: 1;
+}
+
+/* Style for the expiry input fields */
+.expiryInputContainer {
+  display: flex;
+  gap: 5px;
+}
+
+.expiryInput {
+  width: 45px;
+}
+
+.expirySeparator {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.cvvInput {
+  width: 80px;
+}
+
+/* ... (other styles) */

@@ -1,0 +1,102 @@
+.subscriptionPlans {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  padding: 20px;
+}
+
+.planButton {
+  padding: 12px 20px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.planButton.active {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+.planPrice {
+  font-size: 18px;
+  color: #666;
+}
+
+.billingToggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 3rem;
+}
+
+.billingToggleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.toggleButton {
+  font-size: 2rem;
+  padding: 2.3rem 5rem;
+  width: 60px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.toggleButton.active {
+  background-color: #000;
+}
+
+.toggleText {
+  font-weight: bold;
+  color: #000;
+  transition: color 0.3s;
+}
+
+.toggleButton.active .toggleText {
+  color: #fff;
+}
+.planName {
+  padding: 5px;
+}
+.nextButton {
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  right: 0px;
+}
+
+.nextButton:hover {
+  background-color: #0056b3;
+}
+.nextButtonContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 20px;
+}
