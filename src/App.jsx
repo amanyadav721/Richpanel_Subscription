@@ -12,7 +12,7 @@ import Home from "./components/home/Home";
 import ForgotPassword from "./components/auth/ForgotPassword";
 import axios from "axios";
 import Success from "./components/home/subscription/Success";
-import Cancel from "./components/home/subscription/cancel";
+import Cancel from "./components/home/subscription/Cancel";
 
 const Layout = () => {
   const navigate = useNavigate();
