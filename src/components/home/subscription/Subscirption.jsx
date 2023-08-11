@@ -86,7 +86,7 @@ class Subscription extends Component {
         };
 
         const response = await axios.post(
-          "http://localhost:3001/auth/payment",
+          "https://richpannel.onrender.com/payment",
           requestData,
           { headers: headers }
         );
